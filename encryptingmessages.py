@@ -10,4 +10,6 @@ b=list(map(int, input().split()))
 
 
 output=encrypt_message(n, m, c, a, b)
-print(output)
+for i in output:
+    print(i)
+
