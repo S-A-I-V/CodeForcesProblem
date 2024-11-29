@@ -5,11 +5,9 @@ def solve():
     for _ in range(t):
         n = int(input())
         a = list(map(int, input().split()))
-        
         if len(set(a)) == 1:
             results.append("0")
-            continue
-        
+            continue        
         freq = {}
         for num in a:
             freq[num] = freq.get(num, 0) + 1
