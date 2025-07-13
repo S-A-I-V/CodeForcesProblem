@@ -1,4 +1,4 @@
-def get_off_order(n, m):
+x   def get_off_order(n, m):
     left_window = []
     right_window = []
     left_non_window = []
